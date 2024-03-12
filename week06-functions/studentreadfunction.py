@@ -37,6 +37,6 @@ def displaymodules (modules):
         print(f"\t{ module["name"]} \t{ module["grade"]}")
 
 def doview(students):
-    for currenstudent in students:
+    for currentstudent in students:
         print(currentstudent["name"])
         displaymodules (currentstudent ["modules"]);
